@@ -1,0 +1,40 @@
+name       : hello
+version    : 1.4.0
+release    : 1
+source     :
+    - https://github.com/n4n0GH/hello/archive/v1.4.0.tar.gz : 9a1799725f221c89fa7bffda77053a5957c870c18414c4d998e4aa40f6ade0ae
+license    : GPL-2.0-or-later # CHECK ME
+component  : desktop.kde
+summary    : hello. is a compilation of various color-schemes, themes, icons and more for the KDE Plasma desktop.
+description: |
+    hello. is a compilation of various color-schemes, themes, icons and more for the KDE Plasma desktop. It is unopinionated, putting you in charge.
+builddeps  :
+    - pkgconfig(Qt5UiTools)
+    - pkgconfig(Qt5X11Extras)
+    - pkgconfig(x11)
+    - pkgconfig(xcb-event)
+    - extra-cmake-modules
+    - kconfig-devel
+    - kconfigwidgets-devel
+    - kcoreaddons-devel
+    - kcrash-devel
+    - kdecoration-devel
+    - kglobalaccel-devel
+    - kguiaddons-devel
+    - ki18n-devel
+    - kinit-devel
+    - kio-devel
+    - knotifications-devel
+    - kservice-devel
+    - kwidgetsaddons-devel
+    - kwindowsystem-devel
+    - kwin-devel
+    - libepoxy-devel
+    - qt5-declarative-devel
+    - plasma-framework-devel
+setup      : |
+    %cmake
+build      : |
+    %make
+install    : |
+    %make_install

@@ -1,0 +1,187 @@
+<PISI>
+    <Source>
+        <Name>hello</Name>
+        <Packager>
+            <Name>Jasper Behrensdorf</Name>
+            <Email>jasper.behrensdorf@gmail.com</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>desktop.kde</PartOf>
+        <Summary xml:lang="en">hello. is a compilation of various color-schemes, themes, icons and more for the KDE Plasma desktop.</Summary>
+        <Description xml:lang="en">hello. is a compilation of various color-schemes, themes, icons and more for the KDE Plasma desktop. It is unopinionated, putting you in charge.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>hello</Name>
+        <Summary xml:lang="en">hello. is a compilation of various color-schemes, themes, icons and more for the KDE Plasma desktop.</Summary>
+        <Description xml:lang="en">hello. is a compilation of various color-schemes, themes, icons and more for the KDE Plasma desktop. It is unopinionated, putting you in charge.
+</Description>
+        <PartOf>desktop.kde</PartOf>
+        <Files>
+            <Path fileType="data">/kwin/effects/plugins/kwin4_effect_helloshaders.so</Path>
+            <Path fileType="data">/kwin/shaders/1.10/helloshaders.frag</Path>
+            <Path fileType="data">/kwin/shaders/1.40/helloshaders.frag</Path>
+            <Path fileType="library">/usr/lib64/libhellocommon5.so.5</Path>
+            <Path fileType="library">/usr/lib64/libhellocommon5.so.5.16.5</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/org.kde.kdecoration2/hellodecoration.so</Path>
+            <Path fileType="data">/usr/share/color-schemes/HelloDark.colors</Path>
+            <Path fileType="data">/usr/share/color-schemes/HelloLight.colors</Path>
+            <Path fileType="data">/usr/share/kservices5/hellodecorationconfig.desktop</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/AUTHORS</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/LICENSE</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/colors</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/dialogs/background.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/metadata.desktop</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/action-overlays.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/actionbutton.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/arrows.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/background.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/bar_meter_horizontal.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/bar_meter_vertical.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/busywidget.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/button.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/calendar.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/checkmarks.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/clock.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/configuration-icons.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/containment-controls.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/glowbar.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/line.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/lineedit.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/listitem.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/notes.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/pager.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/panel-background.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/scrollbar.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/scrollwidget.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/slider.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/tabbar.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/tasks.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/timer.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/tooltip.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellodark/widgets/viewitem.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/AUTHORS</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/LICENSE</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/dialogs/background.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/TeamViewer.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/accessories.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/akonadi.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/akregator.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/amarok.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/applications.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/apport.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/audio.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/battery.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/bookmarks.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/cantata.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/choqok.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/choqok_offline.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/computer.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/configure.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/desktop.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/device.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/distribute.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/document.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/drive.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/edit.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/go.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/input.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/juk.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kaffeine.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kalarm.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kate.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kdeconnect.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kdf.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/keyboard.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kget.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kgpg.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/klipper.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kmail.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/knotes.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/konv_message.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/konversation.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kopete.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/korgac.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kpackagekit.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kruler.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kteatime.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/ktorrent.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/kup.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/list.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/mail.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/media.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/nepomuk.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/network.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/notification.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/office.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/phone.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/plasmavault-error.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/plasmavault.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/preferences.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/printer.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/qbittorrent.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/quassel.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/quota.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/ring-kde.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/slc.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/software-updates.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/software.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/start.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/system.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/touchpad.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/update.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/user.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/video.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/view.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/vlc.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/wallet.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/window.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/icons/zoom.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/metadata.desktop</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/action-overlays.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/actionbutton.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/arrows.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/background.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/bar_meter_horizontal.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/bar_meter_vertical.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/busywidget.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/button.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/checkmarks.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/clock.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/configuration-icons.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/containment-controls.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/notes.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/panel-background.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/scrollbar.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/slider.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/tabbar.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/timer.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/tooltip.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/hellolight/widgets/viewitem.svg</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>hello-devel</Name>
+        <Summary xml:lang="en">Development files for hello</Summary>
+        <Description xml:lang="en">hello. is a compilation of various color-schemes, themes, icons and more for the KDE Plasma desktop. It is unopinionated, putting you in charge.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">hello</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="library">/usr/lib64/cmake/hello/HelloConfig.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/hello/HelloConfigVersion.cmake</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-07-21</Date>
+            <Version>1.4.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Jasper Behrensdorf</Name>
+            <Email>jasper.behrensdorf@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
